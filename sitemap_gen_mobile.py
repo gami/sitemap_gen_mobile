@@ -143,11 +143,9 @@ SITEINDEX_ENTRY    = \
 SITEMAP_HEADER     = \
   '<?xml version="1.0" encoding="UTF-8"?>\n' \
   '<urlset\n' \
-  '  xmlns="http://www.google.com/schemas/sitemap/0.84"\n' \
-  '  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n' \
-  '  xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84\n' \
-  '                      http://www.google.com/schemas/sitemap/0.84/' \
-  'sitemap.xsd">\n'
+  '  xmlns="http://www.google.com/schemas/sitemap/0.9"\n' \
+  '  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">\n'
+
 SITEMAP_FOOTER     = '</urlset>\n'
 SITEURL_XML_PREFIX = ' <url>\n'
 SITEURL_XML_SUFFIX = ' </url>\n'
